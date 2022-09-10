@@ -106,3 +106,7 @@ const lists = document.querySelectorAll("ul li");
 console.log(lists); //? nodelist
 
 lists.forEach((li) => console.log(li.innerText));
+
+console.log(
+    document.querySelectorAll("section ul li:nth-child(3)")[0].innerText
+);
